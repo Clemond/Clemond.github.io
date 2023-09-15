@@ -1,0 +1,21 @@
+h1{
+    color: beige;
+    
+}
+.omslagsbild{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;;
+    padding-right: 10px;
+
+}
+
+/*
+width: 100%;
+display: flex;
+max-width: 1200 px;
+width: px;
+flex-wrap: wrap;
+justify-content: center;
+*/
