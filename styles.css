@@ -15,7 +15,19 @@ h1{
     height: 40px;
 }
 .biotext{
-
     color: beige;
+    text-align:justify;
+    width: 50%;
+}
 
+@media screen and (max-width: 600px){
+    .biotext{
+        width: 100%;
+    }
+}
+.ranstonlogga{
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 2px;
 }
