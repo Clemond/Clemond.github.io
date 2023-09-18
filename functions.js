@@ -1,0 +1,4 @@
+function bildLänk() {
+    <a></a>
+}
+    

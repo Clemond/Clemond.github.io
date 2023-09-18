@@ -1,12 +1,12 @@
 h1{
     color: beige;
+    font-family: Georgia
 }
 .omslagsbild{
     display: flex;
     justify-content: center;
     padding : 2px;
 }
-
 .socialmediaicons{
     background-color:beige;
     display: flex;
@@ -18,7 +18,30 @@ h1{
     color: beige;
     text-align:justify;
     width: 50%;
+    font-family: Georgia
 }
+.knappar{
+    background-color: beige;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+.knappstyle{
+    background-color: beige;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia;
+    font-style:italic;
+    cursor: pointer;
+}
+
+.knappstyle:hover{
+    color: #cb4012;
+    transition-duration: 0.5s;
+}
+    
 
 @media screen and (max-width: 600px){
     .biotext{
@@ -28,6 +51,5 @@ h1{
 .ranstonlogga{
     display: flex;
     justify-content: flex-end;
-
     padding: 2px;
 }
