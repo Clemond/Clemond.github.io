@@ -147,16 +147,22 @@ margin: auto;;
     display: flex;
     width: 80%;
     margin: auto;
+    justify-content: center;
     gap: 20px;
 }
 .musicimg{
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 926px){
+@media screen and (max-width: 900px){
     .youtubefiler{
         flex-direction: column;
         padding: 10px;
         width: 80%;
     }
+}
+.preview{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
