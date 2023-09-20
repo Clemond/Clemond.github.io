@@ -58,7 +58,7 @@ h1{
 .container{
     max-width: 1224px;
     width: 90%;
-    padding: 40px;
+    padding: 30px;
     margin: auto;
 }
 .title{
@@ -105,4 +105,27 @@ h1{
 .thankyou{
     color: #cb4012;
     text-align: center;
+}
+/*     Tour       */
+.tourcontainer{
+max-width: 1224px;
+width: 70%;
+margin: auto;;
+}
+.tourlogga{
+    display: flex;
+    justify-content: center;
+}
+.tourrow{
+    border-top: white solid 1px;
+}
+.tourtext{
+    color:#d1682e;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+.tourbutton{
+    display: flex;
+    justify-content: center;
 }
