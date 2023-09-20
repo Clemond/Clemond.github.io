@@ -129,3 +129,9 @@ margin: auto;;
     display: flex;
     justify-content: center;
 }
+/*     MUSIC      */
+.musicfiler{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
