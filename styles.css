@@ -209,3 +209,8 @@ h1 {
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 302px) {
+  .new_relese {
+    font-size: 0.9rem;
+  }
+}
