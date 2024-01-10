@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: dashed;
+  border-color: beige;
+}
+.tickets {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  color: beige;
+  border-style: solid;
+  height: 4rem;
+  width: 14rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: beige;
+}
+.loggo {
+  width: 50%;
+  height: 50%;
+  padding-right: 20px;
+}
+
+.loggo_position {
+  display: flex;
+  justify-content: center;
+  border-bottom-style: dotted;
+  border-color: beige;
+}
+
+.home_button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
